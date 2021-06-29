@@ -1,0 +1,183 @@
+<!doctype html>
+<html>
+<head>
+	<title>Sprout</title>
+
+</head>
+<body>
+	<h1>Kartikey Sachdeva</h1>
+	<div class="hero">
+		<h2>Welcome to my website!</h2>
+		<p>Check out my projects here -></p>
+		<a href="#">Projects</a>
+    <a href="page2.html">Page 2</a>
+    <a href="page3.html">Page 3</a>
+    <a href="page4.html">Page 4</a>
+	</div>
+    <!--img class = "background" src="C:\Users\Atul\Documents\Git Repositories\PersonalWebsite\Background.png" alt="my background"-->
+    <div class = "background"></div>
+	<!--<p id = "footer">&copy; Kartikey Sachdeva Limited</p>-->
+
+    <!--
+        
+    -rel: Specifies the relationship between the current file and the file being linked to: in this case, the rel attribute is “stylesheet”.
+
+    -type: Specifies the type of file linked to.
+
+    -href: Provides the URL of the file being linked to.
+
+    -->
+
+    <link rel="stylesheet" type="text/css" href="main.css"/>
+    <a href="https://www.teacheron.com/tutor-profile/2WxZ?r=2WxZ" target="_blank" style="display: inline-block;"><img src="https://www.teacheron.com/resources/assets/img/badges/proudToBeTeacher.png" style="width: 160px !important; height: 68px !important"></a>
+
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+<!--<!DOCTYPE html>
+<html>
+<head>
+	<title>Ollie Bike Sharing</title>
+	<meta charset="utf-8"/>
+	<link rel="stylesheet" type="text/css" href="main.css">
+</head>
+<body>
+   
+        Div elements divide your page by enclosing other elements. 
+        These enclosed groups of elements can then be organized, moved and styled independently from one another.
+        Basically rows for your website... so whatever is in this "class" will be on row
+    
+    <div class="container">
+
+    
+        Headings are a frequently used HTML element. You can think of them like headlines in a newspaper. 
+        Your eyes may notice headings first because the words are large and bold compared to other text on the webpage.
+        There are six heading elements: h1, h2, h3, h4, h5, and h6. h1 is the largest heading and h6 is the smallest.
+        For best practice, you should avoid skipping heading levels. There should also be only one <h1> per HTML page. 
+        Although skipping heading levels or using multiple <h1> elements will not cause errors in your code, it is important to keep a logical hierarchy of your HTML content. 
+        If you are unhappy with the styling of the heading elements, its appearance should be modified using CSS.
+    
+	<h1>Welcome</h1>
+    <h2>To my website</h2>
+    
+        Another essential HTML element is the unordered list. Items in an unordered list are referred to as list items. Each item is bulleted, not numbered. For example:
+
+        A list item
+        A second list item
+        A third list item
+        The HTML code for the list above:
+
+        <ul> -> parent element
+        <li>A list item</li> -> second item
+        <li>A second list item</li>
+        <li>A third list item</li>
+        </ul> 
+        About unordered lists:
+
+        ul tags create the unordered list.
+
+
+        li tags contain each list item.
+
+        Unordered list elements can be used to organize content on a webpage in a number of ways. Below we will use one to organize our website’s navigation menu, sometimes called a navbar.
+    
+    <ul>
+        <li>sign up</li>
+        <li>search bikes</li>
+        <li>reserve a bike</li>
+        <li>about us</li>
+     </ul>
+    
+        The HTML paragraph element, p, is used to hold one or more sentences, just like paragraphs in an essay or a book.
+    
+    <p>Paragraph text here</p>
+    
+         to link users to a different webpage? The HTML anchor element makes it possible to do this with a single click.
+    
+    <p>>Here is a <a href="cities.html">list</a> of cities where you can find us. </p>
+    
+        To add images to a webpage, use the HTML image element:
+    
+    <img src="https://content.codecademy.com/projects/make-a-website/lesson-1/bikes1.jpg"/>
+   
+        The HTML video element can add video to a webpage.
+        The video element uses a number of attributes. Let’s take a look at them:
+
+        width and height: Set the size of the screen that displays the video.
+
+
+        controls: Adds play, pause and volume control.
+
+
+        source src: Sets the URL of the video to play.
+
+
+        type: Specifies different video formats.
+    
+    <video width="320" height="240" controls>
+        <source src="https://content.codecademy.com/projects/make-a-website/lesson-1/ollie.mp4" type="video/mp4">
+      </video>
+    </div>
+</body>
+</html>
+
+
+
+    HTML Review
+Congratulations! You’ve learned enough HTML to create a great website!
+
+Before we move on to styling with CSS, let’s review what we learned in this lesson.
+
+Languages
+html: stands for hypertext markup language, and is used to give a webpage structure.
+
+css: stands for cascading style sheets, and is used to style HTML elements.
+HTML Elements
+h1 - h6: indicate text headings on a webpage. h1 is the largest heading; h6 is the smallest.
+
+<h1>Heading</h1>
+p: used for non-heading text, such as the bodies of articles or company descriptions.
+
+<p>Description of company here.</p>
+a: short for anchor and used to add links to other webpages. Anchor elements typically have an href attribute:
+
+<a href="http://codecademy.com">Click here</a> to learn how to make a website!
+img: used to add an image to a webpage. Image elements are self-closing and do not require a closing tag:
+
+<img src="https://images.com/favorite.png">
+video: used to add videos to a webpage, and uses multiple attributes and a nested source element:
+
+<video width="320" height="240" controls>
+  <source src="https://movies.io/great-clip.mp4" type="video/mp4">
+</video>
+unordered list: used to create lists on a webpage and requires li elements inside a ul:
+
+<ul>
+  <li>list item</li>
+  <li>another item</li>
+  <li>yet another</li>
+</ul>
+div: used to organize HTML elements into different groups, which can be given a class attribute:
+
+<div class="main">
+  <h2>Subheading!</h2>
+</div>
+metadata tags: provide metadata about a webpage.
+
+Web Concepts
+parent/child elements: used to describe HTML elements that enclose or are enclosed by other elements. For example, below the ul is the parent and the li items are children:
+
+<ul>
+  <li>...</li>
+  <li>...</li>
+  <li>...</li>
+</ul>
+-->
