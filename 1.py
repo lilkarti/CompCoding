@@ -15,6 +15,7 @@ class Solution(object):
         #i = index 
         #n = list value^^^
         for i,n in enumerate(nums):
+            #enumerate gives back 2 values i = index and n = value
             diff = target - n
                 if(diff in prevmap)
                     return(prevmap[diff], i)
